@@ -1,0 +1,23 @@
+.orders__container{
+    background-color: #313131;
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    cursor: pointer;
+}
+.orders__text {
+
+}
+.orders__num {
+    color: #adadad;
+}
+.orders__number{
+
+}
+.orders__svg{
+ margin-left: 10px;
+}

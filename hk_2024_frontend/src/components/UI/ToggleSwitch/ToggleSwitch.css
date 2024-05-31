@@ -1,0 +1,19 @@
+.toggle-switch {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.toggle-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    /*background-color: #f0f0f0;*/
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+.toggle-button.active {
+    background-color: #23CEC2;
+    color: white;
+}

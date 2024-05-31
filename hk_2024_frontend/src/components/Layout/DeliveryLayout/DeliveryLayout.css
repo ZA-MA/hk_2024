@@ -1,0 +1,16 @@
+.delivery-layout{
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+}
+
+
+.delivery-content{
+    /*    display: flex;
+        flex-direction: column;*/
+    flex: 1;
+
+    padding: 20px;
+}

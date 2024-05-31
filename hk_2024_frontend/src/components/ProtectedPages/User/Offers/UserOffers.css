@@ -1,0 +1,54 @@
+.user-offers{
+    max-width: 450px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.user-offers-header{
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+.user-offers-header > h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.back-btn{
+    width: 13px;
+    height: 25px;
+    background-image: url('../../../../../public/Pictures/BackRow.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+}
+.user-offers-content {
+    margin-top: 20px;
+}
+.offer-item{
+    display: flex;
+    padding: 18px 16px;
+    border-radius: 15px;
+    background-color: #313131;
+    margin-bottom: 10px;
+}
+.left-part-item{
+    width: 69px;
+    height: 69px;
+    border-radius: 15px;
+    background-color: #A9A9A9;
+}
+.right-part-item p{
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.right-part-item{
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+}

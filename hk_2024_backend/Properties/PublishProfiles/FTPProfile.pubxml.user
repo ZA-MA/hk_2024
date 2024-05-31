@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>
+    </EncryptedPassword>
+    <_PublishTargetUrl>ftp://91.106.207.123/backend.maxzamrx.beget.tech</_PublishTargetUrl>
+    <History>True|2023-11-10T20:55:18.0198811Z;False|2023-11-11T01:54:17.2961905+05:00;True|2023-11-11T01:49:46.2280504+05:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>11/10/2023 04:11:49</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>11/10/2023 04:11:49</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.OpenApi.dll">
+      <publishTime>07/15/2023 07:54:08</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>09/26/2022 17:32:38</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>01/11/2023 11:48:22</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>01/11/2023 11:48:26</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>01/11/2023 11:49:02</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>11/11/2023 01:55:07</publishTime>
+    </File>
+    <File Include="hk_2024_backend.deps.json">
+      <publishTime>11/11/2023 01:55:02</publishTime>
+    </File>
+    <File Include="hk_2024_backend.dll">
+      <publishTime>11/11/2023 01:55:02</publishTime>
+    </File>
+    <File Include="hk_2024_backend.exe">
+      <publishTime>11/11/2023 01:55:02</publishTime>
+    </File>
+    <File Include="hk_2024_backend.pdb">
+      <publishTime>11/11/2023 01:55:02</publishTime>
+    </File>
+    <File Include="hk_2024_backend.runtimeconfig.json">
+      <publishTime>11/11/2023 01:49:32</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+.switchButton__container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 32px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    background-color: #2B2B2B;
+    border-radius: 25px;
+    font-size: 13px;
+    cursor: pointer;
+    align-items: center;
+}
+.switchButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98px;
+    height: 30px;
+    transition: 0.3s ease all;
+}
+.switchButton__active {
+    border-radius: 25px;
+    background-color: #313131;
+    transition: 0.3s ease all;
+}

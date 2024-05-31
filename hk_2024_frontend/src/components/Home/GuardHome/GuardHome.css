@@ -1,0 +1,53 @@
+body{
+    background-color: #232323;
+}
+.security-container{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.security-title{
+    display: flex;
+    justify-content: space-between;
+
+}
+.security-title > h2{
+    font-size: 36px;
+}
+.logout-btn:hover{
+    color: #8f8f8f;
+}
+.sec-adress{
+    display: inline-flex;
+    gap: 20px;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.sec-adress > button {
+    width: 15%;
+}
+
+.offer-title{
+    display: flex;
+}
+.offer-title > p{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 5px;
+}
+.offer-details{
+    padding: 10px;
+    background-color: #363636;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.offer-details > p, .offer-details > div{
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}

@@ -1,0 +1,20 @@
+
+.create-offer{
+    width: 350px;
+    position: absolute;
+
+    bottom: 20px;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.create-offer > button{
+    width: 50%;
+
+}

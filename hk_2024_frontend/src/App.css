@@ -1,0 +1,12 @@
+
+.wrapper {
+  /*max-width: 450px;*/
+  background-color: #232323;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 57px;
+  height: 100vh;
+}
+

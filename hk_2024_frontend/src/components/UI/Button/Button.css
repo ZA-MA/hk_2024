@@ -1,0 +1,143 @@
+.button{
+    all: unset;
+    box-sizing: border-box;
+    cursor: pointer;
+    min-width: min-content;
+    width: 100%;
+    white-space: nowrap;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms;
+    border-radius: 12px;
+}
+
+.button[data-size="small"]{
+    padding: 0 15px;
+    height: 32px;
+}
+.button[data-size="medium"]{
+    padding: 0 21px;
+    height: 48px;
+}
+.button[data-size="large"]{
+    height: 60px;
+}
+
+.button[disabled]{
+    box-shadow: none!important;
+    background: #818181!important;
+    color: #FFFFFF!important;
+    cursor: not-allowed;
+}
+
+
+
+.button[data-style="green"]{
+    background: #23CEC2;
+    color: #FFFFFF;
+}
+.button[data-style="green"]:hover{
+    background: #167c77;
+    color: #FFF;
+    box-shadow: 0 1px 20px 0 rgba(110, 222, 215, 0.25);
+}
+
+.button[data-style="white1"]{
+    background: #FFFFFF;
+    color: #111111;
+
+}
+.button[data-style="white1"]:hover{
+    background: #167c77;
+    color: #FFF;
+    box-shadow: 0 1px 20px 0 rgba(110, 222, 215, 0.25);
+}
+
+.button[data-style="white2"]{
+    background: transparent;
+    color: #111111;
+    border: 1px solid #404040;
+}
+.button[data-style="white2"]:hover{
+    border-color: #606060;
+    background: #606060;
+    color: #FFF;
+}
+
+.button[data-sel="true"]{
+    background: #AA0A22;
+    color: #FFFFFF!important;
+    box-shadow: 0 1px 20px 0 rgba(170, 10, 34, 0.35);
+}
+
+.button:active{
+    background: #FFFFFF!important;
+    color: black!important;
+}
+
+.button-edit, .button-add, .button-delete{
+    all: unset;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 100%;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.25);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-edit[data-size="small"],
+.button-add[data-size="small"],
+.button-delete[data-size="small"]{
+    width: 32px;
+    height: 32px;
+    padding-inline: 8px;
+}
+
+.button-edit[data-size="medium"],
+.button-add[data-size="medium"],
+.button-delete[data-size="medium"]{
+    width: 48px;
+    height: 48px;
+    padding-inline: 8px;
+}
+
+.button-edit[data-size="large"],
+.button-add[data-size="large"],
+.button-delete[data-size="large"]{
+    width: 60px;
+    height: 60px;
+    padding-inline: 8px;
+}
+
+.button-edit[data-style="white1"],
+.button-add[data-style="white1"],
+.button-delete[data-style="white1"]{
+    background: #FFFFFF!important;
+}
+
+.button-edit[data-style="green"],
+.button-add[data-style="green"],
+.button-delete[data-style="green"]{
+    background: #AA0A22!important;
+}
+
+.button-edit[data-style="green"] svg path,
+.button-add[data-style="green"] svg path,
+.button-delete[data-style="green"] svg path{
+    stroke: #FFFFFF;
+}
+
+.button-edit:hover,
+.button-add:hover,
+.button-delete:hover{
+    background: #8F0E21!important;
+    box-shadow: 0 1px 20px 0 rgba(170, 10, 34, 0.35);
+}
+
+.button-edit:hover svg path,
+.button-add:hover svg path,
+.button-delete:hover svg path{
+    stroke: #FFFFFF!important;
+}
